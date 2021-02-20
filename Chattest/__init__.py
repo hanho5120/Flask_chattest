@@ -35,7 +35,7 @@ def hello_world():
 @app.route('/users')
 def Users_get():
     print(User.query.all())
-    return 'Sucess'
+    return 'Sucess----'
 
 @app.route('/blog/<blog_page>',methods=['POST','GET'])
 def blog(blog_page):
